@@ -1,0 +1,16 @@
+[
+	{
+		"image_path": "img/bar_negative_values_updated.png",
+		"data_path": "data/data_bar negative values updated.csv",
+		"chart_type": "bar",
+		"id": "line_001",
+		"class": "single",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "This bar chart illustrates the change in temperature relative to the past year, spanning several decades. The blue bars represent decreases in temperature, while the red bars indicate increases. Notably, there is an overall trend of cooling down, punctuated by occasional small increases. Significant dips are observed around 1970 and 1990, suggesting substantial decreases during these periods. In contrast, brief periods of warming are evident through shorter red bars. The chart provides a clear visual representation of temperature fluctuations over time.",
+			"Descriptive": "The visualization is a bar chart displaying temperature changes relative to past years. The x-axis represents time, with labels indicating different years or periods. The y-axis shows temperature change values ranging from -0.25 to 0.3. Each bar corresponds to a specific year and illustrates its respective temperature change",
+			"StatisticallyInformative": "This bar chart displays the change in temperature over time from 1880 to 2020. The chart features both positive and negative changes, with blue bars indicating increases and red bars showing decreases. Notable trends include fluctuations throughout the century, with a shift towards more red bars in recent decades. Several outliers are present, highlighting significant events or patterns in the data.",
+			"VisuallyInformative": "This bar chart illustrates the change in temperature relative to the past year from 1880 to 2023. The x-axis represents time, while the y-axis measures the temperature change. Blue bars indicate a decrease in temperature, and orange bars represent an increase. A clear trend of decreasing temperatures is observed over time, with some fluctuations. Most years show a decrease in temperature compared to the previous year, although there are instances where the temperature increased."
+		}
+	}
+]

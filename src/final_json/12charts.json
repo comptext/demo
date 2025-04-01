@@ -1,0 +1,158 @@
+[
+	{
+		"image_path": "/img/CO2_emissions.png",
+		"data_path": "./data/CO2_emissions.csv",
+		"chart_type": "scatter",
+		"class": "single",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "The scatter plot illustrates the connection between GDP per capita and Annual CO2 emissions. The most of the points have low GDP and low CO2 emissions, making dense cluster. A slight positive correlation emerges for nations with lower GDP per capita, although this trend becomes increasingly scattered among countries with higher GDP per capita. Some countries exhibit high GDP per capita coupled with relatively low CO2 emissions, whereas others display lower GDP per capita alongside higher CO2 emissions.",
+			"Descriptive": "This scatter plot displays the relationship between Annual CO2 Emissions and GDP per Capita. The x-axis represents Annual CO2 Emissions, while the y-axis represents GDP per Capita. Each data point is denoted by a green dot.",
+			"StatisticallyInformative": "This scatter plot illustrates the relationship between GDP per capita and annual CO2 emissions across various countries. A positive correlation is evident, indicating that as GDP per capita increases, so do CO2 emissions. The majority of data points cluster in the lower left quadrant, representing countries with relatively low economic output and environmental impact. Notably, a few countries stand out in the upper right quadrant, boasting significantly higher GDP per capita and CO2 emissions than their counterparts.",
+			"VisuallyInformative": "This scatter plot illustrates the relationship between GDP per capita and Annual CO2 Emissions. A strong positive correlation is evident, with a clear upward trend from left to right. Most countries have relatively low GDP per capita (less than $10,000) and CO2 emissions (less than 5 metric tons per capita), while a few outliers exhibit high values in both categories."
+		}
+	},
+	{
+		"image_path": "/img/IMDB_US.png",
+		"data_path": "./data/IMDB US.csv",
+		"chart_type": "line",
+		"class": "single",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "The graph displays a line chart with two axes. The x-axis represents the IMDB rating (binned), while the y-axis represents gross movie sales in the US, ranging from 0 to 120 million dollars. The chart shows an upward trend in gross movie sales as the IMDB rating increases. From an IMDB rating of around 7 and above, the gross movie sales steeply increase, reaching nearly 120 million dollars.",
+			"Descriptive": "The graph displays a line chart with two axes. The x-axis represents the IMDB rating (binned), while the y-axis represents gross movie sales in the US, ranging from 0 to 120 million dollars.",
+			"StatisticallyInformative": "This line chart illustrates the relationship between IMDB ratings and gross movie sales in the US. At an IMDB rating of approximately 9.0, gross movie sales peak at around $120 million. Notably, there are no outliers or anomalies present in the data. The graph reveals a positive correlation between IMDB ratings and gross movie sales, with higher-rated movies generally achieving greater commercial success.",
+			"VisuallyInformative": "The line chart displays the relationship between IMDB Rating and Gross Movie Sales in the US, revealing a strong positive correlation where higher IMDB ratings correspond to increased gross movie sales. Notable patterns include highest-grossing movies above an 8 IMDB rating, a spike around a 7 IMDB rating indicating potential commercial success, and lowest-grossing movies below a 4 IMDB rating."
+		}
+	},
+	{
+		"image_path": "/img/Movie_gross_2.png",
+		"data_path": "./data/Movie_gross_2.csv",
+		"chart_type": "bar",
+		"class": "multi",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "This bar chart compares US and Wordwide gross across different movie genres. The x-axis represents the genre, while the y-axis represents a sale gross. Two groups of bars are present for each category, with blue bars representing US gross and orange bars representing wordwide gross. The Worldwide gross is two times larger than the US gross for the most genres, but Traditional/Legend/Fairytale shows the same amount. Comic/Graphic Novel shows the largest sales at $180 million and Play has the lowest sales, at $10 million.",
+			"Descriptive": "This bar chart displays the sales figures for different movie genres or categories in millions. The x-axis lists various categories, each divided into two subcategories: \"US Gross\" and \"Worldwide Gross.\" The y-axis represents the sales figures. Each category's bars are colored differently to distinguish between US and Worldwide grosses.",
+			"StatisticallyInformative": "This bar chart compares US and Wordwide gross across different movie genres. The Worldwide gross is two times larger than the US gross for most genres, but Traditional/Legend/Fairytale shows the same amount. Comic/Graphic Novel shows the largest sales at $180 million and Play has the lowest sales, at $10 million.",
+			"VisuallyInformative": "This bar chart compares the sales gross of movies across various genres. The Worldwide gross is two times larger than the US gross for most genres, but Traditional/Legend/Fairytale shows the same amount. Notably, the \"Based on Comic/Graphic Novel\" genre has the highest sales gross at 180 million, whereas the \"Based on Play\" genre has the lowest at 10 million. "
+		}
+	},
+	{
+		"image_path": "/img/Stock_prices_with_red.png",
+		"data_path": "./data/stock_price_with_red.csv",
+		"chart_type": "line",
+		"class": "multi",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "This line graph illustrates the comparative prices of four stocks - BAKS, KAPD, UPSA, and MSQP - during May. The x-axis represents the dates from May 1st to May 30th, while the y-axis displays the stock prices ranging from $100 to $180. BAKS price consistently increases with some minor fluctuations, reaching $135. In contrast, KAPD and UPSA exhibit relatively stable trends, albeit with slight dips in May 17th. MSQP's price experiences a significant decline in May 17th before partially recovering by May 23rd",
+			"Descriptive": "The line graph illustrates the stock prices of four companies (BAKS, KAPD, UPSA, and MSQP) over a period of 52 weeks. The x-axis represents the weeks, while the y-axis shows the price in dollars.",
+			"StatisticallyInformative": "This line chart illustrates the stock prices of four companies - BAKS, KAPD, UPSA, and MSQP - from May 1 to May 30, 2021. BAKS has shown a growth in stock price from $120 to $130 approximately. KAPD has shown a significant decrease on May 17th. MSQP shows the lowest performance than the others based on 52 week low as of April 2021.",
+			"VisuallyInformative": "This line chart illustrates the stock prices of four companies - BAKS, KAPD, UPSA, and MSQP - from May 1 to May 30, 2021. Observing the trends, BAKS starts at around $120 on May 1, and increases steadily until mid-May before fluctuating with an overall slight increase. KAPD begins near $140 on May 1, decreases initially but rises and stabilizes above $150 from mid-month onwards. UPSA commences close to $170 on May 1, exhibits volatility yet generally remains over $160 throughout the period. MSQP starts at approximately $180 on May 1, and shows considerable fluctuations with an overall downward trend towards month's end."
+		}
+	},
+	{
+		"image_path": "/img/activity_3_clusters.png",
+		"data_path": "./data/activity_3_clusters.csv",
+		"chart_type": "scatter",
+		"class": "multi",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "This scatter plot illustrates the relationship between time spent exercising and calories burned for three different activities, with distinct clusters for each activities. Among three activities, Running burns the most calories around 900, indicating that running burns the more calories than the other two activities. Cycling indicates the lowest calories burned around 300. The chart shows that exercise durations are less related to the total calories burned.",
+			"Descriptive": "This scatter plot illustrates the relationship between time spent on an activity and the corresponding number of calories burned. The graph features three clusters of data points, each associated with a specific color: green, orange, and blue. The x-axis measures time in minutes, from 0 to 60, while the y-axis represents calories burned, ranging from 0 to 1000.",
+			"StatisticallyInformative": "A scatter plot shows a strong positive correlation between Calories Burned and Time. As time increases, calories burned tend to increase at a rate of approximately 1.2 units per minute. The data points are densely clustered around the regression line, indicating a strong linear relationship between the two variables.",
+			"VisuallyInformative": "This scatter plot illustrates the relationship between time (in minutes) and calories burned for three different activities: cycling, running, and walking. The data distribution reveals varying patterns across activities, with cycling showing a slight upward trend, running exhibiting a more compact distribution and walking displaying a dispersed pattern. Overall, running has the most calories burned than the other two activities, and cycling has the lowest calories burned."
+		}
+	},
+	{
+		"image_path": "/img/bar_negative_values_updated.png",
+		"data_path": "./data/bar negative values updated.csv",
+		"chart_type": "bar",
+		"class": "single",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "This bar chart illustrates the change in temperature relative to the past year, spanning several decades. The blue bars represent decreases in temperature, while the red bars indicate increases. Notably, there is an overall trend of cooling down, punctuated by occasional small increases. Significant dips are observed around 1970 and 1990, suggesting substantial decreases during these periods. In contrast, brief periods of warming are evident through shorter red bars. The chart provides a clear visual representation of temperature fluctuations over time.",
+			"Descriptive": "This bar chart illustrates the change in temperature relative to the past year, spanning several decades. The x-axis denotes years from 1880 to 2020, while the y-axis measures temperature deviations in degrees Celsius. The blue bars represent decreases in temperature, while the red bars indicate increases. ",
+			"StatisticallyInformative": "This line chart illustrates the change in temperature over time, spanning from 1860 to 2020. A clear upward trend is evident, indicating a consistent increase in temperature anomalies throughout the observed period. The highest temperature anomaly occurred around 2006, with a value of approximately 0.4 degrees above the average temperature during that year. This suggests a significant deviation from the norm. Furthermore, the chart shows that the temperature anomalies have been steadily increasing since the early 20th century, with some fluctuations.",
+			"VisuallyInformative": "The line chart illustrates temperature anomalies from 1860 to 2020. The chart reveals significant fluctuations during the mid-20th century and early 21st century. A closer examination shows an accelerated increase in temperature over the past few decades. The chart does not exhibit seasonality or periodic trends, suggesting that long-term factors drive the observed changes. Visual inspection implies that external factors such as industrialization, deforestation, or other human activities may influence the upward trend in temperature anomalies."
+		}
+	},
+	{
+		"image_path": "/img/budget.png",
+		"data_path": "./data/budget.csv",
+		"chart_type": "bar",
+		"class": "single",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "This horizontal bar chart displays the production budgets for 12 different movie genres. The x-axis shows values ranging from approximately 0 to 240 million dollars, while the y-axis lists the genre categories. Action and Thriller/Suspense genres have significantly higher budgets than others, suggesting varying levels of investment in each category. In contrast, Musical, Documentary, and Concert/Performance have the significantly lower budgets",
+			"Descriptive": "This bar chart compares the average production budget for different movie genres and the total number of films produced in each genre. The x-axis lists various movie genres, while the y-axis represents the budget allocated to each genre.",
+			"StatisticallyInformative": "This bar chart displays the average production budget for various movie genres. Action movies have the highest budget, averaging around $240 million, while Comedy and Romantic Comedies have significantly lower budgets, ranging from approximately $0-20 million. The Thriller/Suspense genre also exhibits a relatively high budget compared to other genres.",
+			"VisuallyInformative": "The bar chart displays the average production budget for various movie genres. Notably, Action films boast the highest average budget, reaching approximately 160 million dollars, while Thriller/Suspense follows closely with around 140 million dollars. Conversely, Western movies have significantly lower budgets, averaging about 20 million dollars. "
+		}
+	},
+	{
+		"image_path": "/img/car_models.png",
+		"data_path": "./data/car_models.csv",
+		"chart_type": "scatter",
+		"class": "multi",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "This scatter plots shows a comparison on the age of car and odometer reading across different categories on the x-axis and y-axis. The size of data points corresponds to the price and their color corresponds to their category. The age and odometer reading have positive relationships, and the more recent cars cost the more expensive prices compared to the old one. '328i' and 'rx 350' are mostly distribute from 6 years to 14 years.",
+			"Descriptive": "This is a scatter plot showing the relationship between the age of cars (as of 2022) and odometer readings in miles. The x-axis represents the age of cars, ranging from approximately 0 to 20 years, while the y-axis represents the odometer readings, ranging from approximately 0 to 240000 miles. Each data point is represented by a circle, where its size indicates the price and the color indicates the car model. ",
+			"StatisticallyInformative": "The scatter plot shows a positive correlation between the odometer reading and the age of the car. The data points are scattered, but there is a general trend indicating that as the odometer reading increases, so does the age of the car. The mean odometer reading is around 120000 miles, while the median is 10000 miles. Similarly, the mean age of the car is around 5 years, with a median of 4 years.",
+			"VisuallyInformative": "This scatter plot illustrates the relationship between the age of cars and their odometer readings. The data points are scattered throughout the plot, but there is an overall upward trend indicating that as the car gets older, its odometer reading increases. However, the rate of change slows down as the car gets older. There are some outliers in the data, particularly at higher ages, which have significantly higher odometer readings than most of the other cars. In terms of the price, the newer cars are the more expensive than the older cars. Model 1500 has spread from 0 to 20 ages, in contrast, 328i and RX 350 are condensed in a range of 6 to 14."
+		}
+	},
+	{
+		"image_path": "/img/gov_bond_yields.png",
+		"data_path": "./data/gov_bond_yields.csv",
+		"chart_type": "line",
+		"class": "single",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "The line graph illustrates a historical trend of long-term government bond yields spanning six decades from 1960 to 2022. The y-axis measures these yields in percentage points, ranging from approximately 2% to around 15%. The bond yields experience the upward trend before 1982 but it declines over time, recording the lowest percentage below 2% in 2020.",
+			"Descriptive": "This line chart illustrates the historical trend of long-term government bond yields from 1960 to 2022. The blue line represents one type of bond yield, starting at around 4% in 1960 and peaking at approximately 14% in 1982 before declining to about 1% in 2020.",
+			"StatisticallyInformative": "The line graph shows the bond rate over time, with a peak of approximately 16% in 1980 and a low of around 1% in 2020. There are two distinct periods visible on the chart: a period of high bond rates from 1975 to 1990 and a period of low interest rates from 2000 to 2020. The current bond rate is lower than it was during the period of high interest rates in the late 1970s and early 1980s",
+			"VisuallyInformative": "This line chart illustrates the long-term government bond yields from 1960 to 2022. A general downward trend is observed in bond yields over the years, with some fluctuations. There are two distinct periods visible on the chart: a period of high bond rates from 1975 to 1990 and a period of low interest rates from 2000 to 2020. The current bond rate is lower than it was during the period of high interest rates in the late 1970s and early 1980s. "
+		}
+	},
+	{
+		"image_path": "/img/output_3_category_products.png",
+		"data_path": "./data/output_3_category_products.csv",
+		"chart_type": "bar",
+		"class": "multi",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "This bar chart illustrates the comparative output in tons across three categories: dairy products, vegetables, and fruits with five subcategories each. The x-axis lists different types of produce, while the y-axis represents quantity produced. Fruits exhibit the highest output, followed by vegetables, which show a higher yield than dairy products. Notable differences exist in production levels across categories, with some fruits like blue berries and oranges showing higher volumes than others such as pineapples and watermelons.",
+			"Descriptive": "The image displays a bar chart illustrating the production of different food items. The chart is divided into three categories: Dairy Products, Vegetables, and Fruits. Under each category, there are specific products mentioned, such as Milk, Onions, Pineapples, Carrots, Watermelons, Blueberries, Corn, Strawberries, Oranges, Butter, Peas, Yogurt, Tomatoes, Cheese, Ice Cream",
+			"StatisticallyInformative": "This bar chart displays the output of various dairy products, categorized by type (Dairy Products, Vegetables, and Fruits) and further divided into specific brands or types within each category. The fruits category has the highest overall production. In contrast, Dairy products have the lowest overall products, especially for milk and cheese. Vegetables are in medium amounts, however, some of them (e.g., corn and tomato) show larger outputs than the pineapples.",
+			"VisuallyInformative": "The image presents a bar chart comparing the output of various dairy products, vegetables, and fruits. The x-axis lists the categories, while the y-axis represents the quantity in tons. Overall, Fruits produce the most output in tons, followed by vegetables. Notably, the highest output is observed for corn among the vegetables, with approximately 10,000 tons, whereas pineapples have the lowest output among the fruits, with around 9,000 tons. Among the three categories, Dairy products have the lowest output but butter produces more output than onions, carrots, and peas."
+		}
+	},
+	{
+		"image_path": "/img/stock_price_strokedash.png",
+		"data_path": "./data/stock_price_strokedash.csv",
+		"chart_type": "line",
+		"class": "multi",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "This bar chart illustrates the stock prices of five companies - Apple (AAPL), Amazon (AMZN), Google (GOOG), IBM, and Microsoft (MSFT) - over the period from 2000 to 2010. The data reveals that GOOG's stock price experienced significant fluctuations but ultimately reached its highest point in 2008. In contrast, MSFT's stock price demonstrated steady growth throughout the decade, while AMZN's stock price showed consistent increases without any major dips. AAPL's stock price was relatively stable during the first half of the decade but declined sharply in 2008 before recovering somewhat by 2010",
+			"Descriptive": "This line chart displays the historical prices of five stocks: AAPL, AMZN, GOOG, IBM, and MSFT. The x-axis represents time, spanning from 2000 to 2010, while the y-axis represents price, ranging from $0 to $800. Each stock is represented by a distinct shaped line, allowing for easy comparison of their price trends over the years.",
+			"StatisticallyInformative": "The line graph displays the stock prices of AAPL, AMZN, GOOG, IBM, and MSFT from 2000 to 2010. The AAPL and GOOG's price increased significantly from 2009 to 2010, peaking around late 2009, while MSFT and IBM's price remained stable throughout the period with minimal changes.",
+			"VisuallyInformative": "This line graph illustrates the stock prices of five prominent companies - AAPL, AMZN, GOOG, IBM, and MSFT - from 2000 to 2010. GOOG's stock price exhibits a significant increase over the period, with a notable surge around 2007-2008. In contrast, AAPL's stock price shows an upward trend but with fewer increases than GOOG. IBM's stock price remains relatively stable throughout the period, with minimal changes. AMZN's stock price displays a slight decline from 2000 to 2003, followed by a steady increase until 2010. MSFT's stock price experiences a moderate decrease from 2000 to 2002, then stabilizes and shows a minor increase towards the end of the period. There appears to be a correlation between AAPL's and AMZN's stock prices, as they both experience an upward trend during the same period."
+		}
+	},
+	{
+		"image_path": "/img/sunny_days.png",
+		"data_path": "./data/sunny_days.csv",
+		"chart_type": "scatter",
+		"class": "single",
+		"juxtaposed": false,
+		"descriptions": {
+			"Overview": "This scatter plot illustrates the relationship between temperature and time over a one-year period. The data points reveal a general trend of increasing temperatures during the summer months (June to August) and decreasing temperatures during the winter months (December to February). The highest temperatures occur in July, with most readings falling above 86\u00b0F, while the lowest temperatures are observed in February, with most readings below 50\u00b0F.",
+			"Descriptive": "This graph displays a scatter plot with 366 data points, each represented by a dot on the coordinate plane. The x-axis represents dates, while the y-axis shows maximum daily temperatures in degrees Fahrenheit.",
+			"StatisticallyInformative": "This scatter plot illustrates the maximum daily temperature in Fahrenheit on sunny days in Eddford over time. A clear upward trend is observed from January to July, peaking at around 95\u00b0F in July, followed by a slight decrease from August to December. The data points exhibit some variability within each month, with no extreme outliers or anomalies present.",
+			"VisuallyInformative": "This scatter plot illustrates the relationship between temperature and time over a one-year period. It reveals a general trend of increasing temperatures during the summer months and decreasing temperatures during the winter months. The highest temperatures occur in July, with most readings falling above 86\u00b0F, while the lowest temperatures are observed in February, with most readings below 50\u00b0F."
+		}
+	}
+]
